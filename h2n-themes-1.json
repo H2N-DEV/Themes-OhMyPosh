@@ -189,12 +189,13 @@
           "type": "ytm"
         },
         {
-          "background": "#c386f1",
+          "background": "#f48e4a",
           "foreground": "#ffffff",
-          "leading_diamond": "\udb83",
+          "invert_powerline": true,
+          "leading_diamond": "\ue0b2",
           "style": "diamond",
-          "template": "H2N DEV",
-          "trailing_diamond": "\udd6e",
+          "template": "H2N\ue764",
+          "trailing_diamond": "\ue0b4",
           "type": "text"
         },
         {
