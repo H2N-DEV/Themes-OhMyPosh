@@ -208,22 +208,14 @@
             "type": "battery"
           },
           {
-            "background": "#2e9599",
-            "foreground": "#111111",
+            "background": "#ffb413",
+            "foreground": "#ffffff",
             "invert_powerline": true,
             "leading_diamond": "\ue0b2",
             "style": "diamond",
-            "template": " {{ .CurrentDate | date .Format }} ",
+            "template": "H2N",
             "trailing_diamond": "\ue0b4",
             "type": "time"
-          },
-          {
-            "background": "#ff9248",
-            "foreground": "#ffffff",
-            "powerline_symbol": "\ue0b0",
-            "style": "powerline",
-            "template": " H2N ",
-            "type": "custom"
           }
         ],
         "type": "rprompt"
