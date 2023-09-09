@@ -168,14 +168,7 @@
     },
     {
       "segments": [
-        {
-          "background": "#ff9248", // Màu nền
-          "foreground": "#ffffff", // Màu chữ
-          "powerline_symbol": "\ue0b0", // Biểu tượng powerline (tùy chọn)
-          "style": "powerline", // Kiểu hiển thị (tùy chọn)
-          "template": " H2N \udb83\udd6e ", // Chữ "H2N" và biểu tượng emoji
-          "type": "custom" // Loại segment (tùy chọn)
-        },
+
         {
           "background": "#0077c2",
           "foreground": "#ffffff",
@@ -195,6 +188,14 @@
           "style": "powerline",
           "template": " \uf167 {{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} - {{ .Track }}{{ end }} ",
           "type": "ytm"
+        },
+        {
+          "background": "#ff9248",
+          "foreground": "#ffffff", 
+          "powerline_symbol": "\ue0b0", 
+          "style": "powerline", 
+          "template": " H2N \udb83\udd6e ", 
+          "type": "custom"
         },
         {
           "background": "#f36943",
