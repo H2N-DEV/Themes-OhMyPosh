@@ -173,9 +173,9 @@
           "foreground": "#ffffff",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
-          "template": " H2N DEV ",
+          "template": " H2N DEV \udb83\udd6e",
           "trailing_diamond": "\ue0b0",
-          "type": "session"
+          "type": "text"
         },
         {
           "background": "#0077c2",
