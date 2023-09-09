@@ -169,15 +169,6 @@
     {
       "segments": [
         {
-          "background": "#c386f1",
-          "foreground": "#ffffff",
-          "leading_diamond": "\ue0b6",
-          "style": "diamond",
-          "template": " H2N DEV \udb83\udd6e",
-          "trailing_diamond": "\ue0b0",
-          "type": "text"
-        },
-        {
           "background": "#0077c2",
           "foreground": "#ffffff",
           "style": "plain",
@@ -196,6 +187,15 @@
           "style": "powerline",
           "template": " \uf167 {{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} - {{ .Track }}{{ end }} ",
           "type": "ytm"
+        },
+        {
+          "background": "#c386f1",
+          "foreground": "#ffffff",
+          "leading_diamond": "\udb83",
+          "style": "diamond",
+          "template": "H2N DEV",
+          "trailing_diamond": "\udd6e",
+          "type": "text"
         },
         {
           "background": "#f36943",
