@@ -169,6 +169,14 @@
     {
       "segments": [
         {
+          "background": "#ff9248", // Màu nền
+          "foreground": "#ffffff", // Màu chữ
+          "powerline_symbol": "\ue0b0", // Biểu tượng powerline (tùy chọn)
+          "style": "powerline", // Kiểu hiển thị (tùy chọn)
+          "template": " H2N \udb83\udd6e ", // Chữ "H2N" và biểu tượng emoji
+          "type": "custom" // Loại segment (tùy chọn)
+        },
+        {
           "background": "#0077c2",
           "foreground": "#ffffff",
           "style": "plain",
@@ -224,12 +232,4 @@
   "console_title_template": "{{ .Shell }} in {{ .Folder }}",
   "final_space": true,
   "version": 2
-},
-{
-  "background": "#ff9248", // Màu nền
-  "foreground": "#ffffff", // Màu chữ
-  "powerline_symbol": "\ue0b0", // Biểu tượng powerline (tùy chọn)
-  "style": "powerline", // Kiểu hiển thị (tùy chọn)
-  "template": " H2N \udb83\udd6e ", // Chữ "H2N" và biểu tượng emoji
-  "type": "custom" // Loại segment (tùy chọn)
 }
