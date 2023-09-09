@@ -169,14 +169,13 @@
     {
       "segments": [
         {
-          "background": "#2e9599",
-          "foreground": "#111111",
-          "invert_powerline": true,
-          "leading_diamond": "\ue0b2",
+          "background": "#c386f1",
+          "foreground": "#ffffff",
+          "leading_diamond": "\ue0b6",
           "style": "diamond",
-          "template": " H2N  ",
-          "trailing_diamond": "\ue0b4",
-          "type": "time"
+          "template": " H2N DEV ",
+          "trailing_diamond": "\ue0b0",
+          "type": "session"
         },
         {
           "background": "#0077c2",
