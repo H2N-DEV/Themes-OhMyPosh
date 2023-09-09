@@ -168,7 +168,16 @@
     },
     {
       "segments": [
-
+        {
+          "background": "#2e9599",
+          "foreground": "#111111",
+          "invert_powerline": true,
+          "leading_diamond": "\ue0b2",
+          "style": "diamond",
+          "template": " H2N  ",
+          "trailing_diamond": "\ue0b4",
+          "type": "time"
+        },
         {
           "background": "#0077c2",
           "foreground": "#ffffff",
