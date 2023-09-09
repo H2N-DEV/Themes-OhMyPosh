@@ -195,7 +195,7 @@
           "powerline_symbol": "\ue0b0", 
           "style": "powerline", 
           "template": " H2N \udb83\udd6e ", 
-          "type": "custom"
+          "type": "time"
         },
         {
           "background": "#f36943",
