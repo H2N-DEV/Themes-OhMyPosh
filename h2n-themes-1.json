@@ -1,5 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "var": {
+    "H2N": "H2N",
+    "DEV": "DEV"
+  },
   "blocks": [
     {
       "alignment": "left",
@@ -216,17 +220,6 @@
           "template": " {{ .CurrentDate | date .Format }} ",
           "trailing_diamond": "\ue0b4",
           "type": "time"
-        },
-        {
-          "type": "text",
-          "style": "powerline",
-          "powerline_symbol": "\uE0B0",
-          "foreground": "#ffffff",
-          "background": "#61AFEF",
-          "properties": {
-            "text": "H2N",
-            "prefix": " \udb83\udd6e "
-          }
         }
       ],
       "type": "rprompt"
