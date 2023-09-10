@@ -150,8 +150,8 @@
             "always_enabled": true
           },
           "style": "plain",
-          "template": "<transparent>\ue0b0</> \ueba2 {{ .FormattedMs }}\u2800",
-          "type": "executiontime"
+          "template": "<transparent>\ue0b0</> \ueba2 {{ .Var.H2N }} {{ .Var.DEV }} \u2800",
+          "type": "text"
         },
         {
           "background": "#00897b",
