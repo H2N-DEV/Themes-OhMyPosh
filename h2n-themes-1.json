@@ -150,7 +150,7 @@
             "always_enabled": true
           },
           "style": "plain",
-          "template": "<transparent>\ue0b0</> \udb83\udd6e{{ .Var.H2N }} {{ .Var.DEV }} \u2800",
+          "template": "<transparent>\ue0b0</> {{ .Var.H2N }} \udb83\udd6e \u2800",
           "type": "text"
         },
         {
